@@ -8,11 +8,11 @@ group :assets do
 end
 
 # Provides basic authentication functionality for testing parts of your engine
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', :branch => "2-4-stable"
+gem 'solidus_auth_devise'
 
 # Provides basic frontend and backend functionalities for testing purposes
-gem 'spree_backend', '~> 2.4'
-gem 'spree_frontend', '~> 2.4'
+gem 'solidus_backend'
+gem 'solidus_frontend'
 
 group :test do
   gem 'shoulda-matchers', '~> 2.8.0'

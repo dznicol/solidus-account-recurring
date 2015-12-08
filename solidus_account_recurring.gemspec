@@ -1,7 +1,7 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_account_recurring'
+  s.name        = 'solidus_account_recurring'
   s.version     = '1.3.1'
   s.summary     = 'Spree extension to manage recurring payments/subscriptions using Stripe Payment Gateway.'
   s.description = s.summary
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.4'
+  s.add_dependency 'solidus_core'
   s.add_dependency 'stripe', '1.16.0'
   s.add_dependency 'stripe_tester'
 
