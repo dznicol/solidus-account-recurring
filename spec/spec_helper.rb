@@ -30,8 +30,8 @@ require 'spree/testing_support/controller_requests'
 require 'spree/testing_support/authorization_helpers'
 require 'spree/testing_support/url_helpers'
 
-# Requires factories defined in lib/spree_account_recurring/factories.rb
-require 'spree_account_recurring/factories'
+# Requires factories defined in lib/solidus_account_recurring/factories.rb
+require 'solidus_account_recurring/factories'
 
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
@@ -80,7 +80,7 @@ RSpec.configure do |config|
   end
 
   config.fail_fast = ENV['FAIL_FAST'] || false
-  
+
   # Remove rspec-rails 3 deprecation warning
   config.infer_spec_type_from_file_location!
 end

@@ -8,24 +8,24 @@ All plans and subscription scenarios are been managed as per [Stripe Docs](https
 Installation
 ------------
 
-Install `spree_account_recurring` by adding the following to your `Gemfile`:
+Install `solidus_account_recurring` by adding the following to your `Gemfile`:
 
 ```ruby
 # Spree 2.4.x
-gem 'spree_account_recurring', '~> 1.3'
+gem 'solidus_account_recurring', '~> 1.3'
 ```
 
 For older version of Spree
 
 ```ruby
 # Spree 2.3.x
-gem 'spree_account_recurring', '~> 1.2'
+gem 'solidus_account_recurring', '~> 1.2'
 
 # Spree 2.2.x
-gem 'spree_account_recurring', '~> 1.1'
+gem 'solidus_account_recurring', '~> 1.1'
 
 # Spree 2.1.x
-gem 'spree_account_recurring', '~> 1.0'
+gem 'solidus_account_recurring', '~> 1.0'
 ```
 
 
@@ -33,7 +33,7 @@ Bundle your dependencies and run the installation generator:
 
 ```shell
 bundle
-bundle exec rails g spree_account_recurring:install
+bundle exec rails g solidus_account_recurring:install
 ```
 
 Usage
@@ -100,7 +100,7 @@ When testing your applications integration with this extension you may use it's 
 Simply add this require statement to your spec_helper:
 
 ```ruby
-require 'spree_account_recurring/factories'
+require 'solidus_account_recurring/factories'
 ```
 
 Contributing
